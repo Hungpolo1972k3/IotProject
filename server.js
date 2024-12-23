@@ -33,7 +33,7 @@ cloudinary.config({
 
 // Kết nối MongoDB
 mongoose
-  .connect('mongodb://localhost:27017/cloudinary-demo', {
+  .connect('mongodb+srv://NguyenThoHung:gv9pc8nZXxIkdUSF@cluster0.0g4h5.mongodb.net/cloudinary-demo', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
